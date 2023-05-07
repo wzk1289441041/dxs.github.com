@@ -1,2 +1,6 @@
 # dxs.github.com
-恋爱交友
+git init
+git remote add origin https://github.com/dxs.gith.io/dxs.gith.io.github.io.git
+git add .
+git commit -m "Initial commit"
+git push -u origin master
