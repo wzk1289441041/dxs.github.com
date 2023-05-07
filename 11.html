@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>大学生交友恋爱平台</title>
+    <!-- 加入样式表 -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- 注册页面 -->
+    <div id="register">
+        <h1>欢迎加入大学生交友恋爱平台！</h1>
+        <form>
+            <label for="username">用户名:</label>
+            <input type="text" id="username" name="username" required><br><br>
+            <label for="email">电子邮件:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="password">密码:</label>
+            <input type="password" id="password" name="password" required><br><br>
+            <label for="confirm_password">确认密码:</label>
+            <input type="password" id="confirm_password" name="confirm_password" required><br><br>
+            <input type="submit" value="注册">
+        </form>
+    </div>
+
+    <!-- 用户主页页面 -->
+    <div id="user-profile">
+        <h1>个人信息</h1>
+        <img src="avatar.jpg" alt="头像" id="avatar"><br><br>
+        <label for="name">姓名:</label>
+        <input type="text" id="name" name="name" value="张三"><br><br>
+        <label for="gender">性别:</label>
+        <input type="radio" id="male" name="gender" value="男"><label for="male">男</label>
+        <input type="radio" id="female" name="gender" value="女"><label for="female">女</label><br><br>
+        <label for="age">年龄:</label>
+        <input type="number" id="age" name="age" value="20"><br><br>
+        <label for="hometown">家乡:</label>
+        <input type="text" id="hometown" name="hometown" value="北京"><br><br>
+        <label for="interests">兴趣爱好:</label>
+        <textarea id="interests" name="interests" rows="5" cols="50">听音乐、看电影、旅游</textarea><br><br>
+       <a href="wy.html "><input type="button" value="保存" id="save-button"></a> 
+    </div>
+
+    <!-- 加入脚本 -->
+    <script src="js/script.js"></script>
+</body>
+</html>

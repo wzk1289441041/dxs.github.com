@@ -1,0 +1,108 @@
+/* 重置页面样式 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 页面布局 */
+body {
+    font-family: '微软雅黑', sans-serif;
+    background-color: #f0f0f0;
+}
+
+h1 {
+    text-align: center;
+    margin: 30px 0;
+}
+
+#register, #user-profile {
+    width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+#register form, #user-profile label {
+    display: block;
+    margin-bottom: 20px;
+}
+
+#register input[type="text"],
+#register input[type="email"],
+#register input[type="password"],
+#register input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+#register input[type="text"]:focus,
+#register input[type="email"]:focus,
+#register input[type="password"]:focus {
+    outline: none;
+    box-shadow: 0 0 3px #0ca3d3;
+}
+
+#register input[type="submit"] {
+    background-color: #0ca3d3;
+    color: #fff;
+    cursor: pointer;
+}
+
+#register input[type="submit"]:hover {
+    background-color: #0c8dd3;
+}
+
+#user-profile img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+    object-fit: cover;
+    object-position: center;
+}
+
+#user-profile input[type="text"],
+#user-profile input[type="radio"],
+#user-profile input[type="number"],
+#user-profile textarea {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    font-size: 16px;
+}
+
+#user-profile input[type="radio"] {
+    margin-right: 10px;
+}
+
+#user-profile input[type="radio"] + label {
+    margin-right: 20px;
+}
+
+#user-profile textarea {
+    resize: none;
+}
+
+#user-profile input[type="button"] {
+    background-color: #0ca3d3;
+    color: #fff;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+#user-profile input[type="button"]:hover {
+    background-color: #0c8dd3;
+}
+
+#user-profile input[type="button"]:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}

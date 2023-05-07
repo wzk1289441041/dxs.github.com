@@ -1,0 +1,75 @@
+*{margin: 0px; padding: 0px; border: 0px; } /* 清除边距边框默认值 */
+
+
+.waiquan { /* 登录总窗体 */
+	margin: 5% 0px 0px 15%;
+	width: 1080px;
+	height: 700px;
+	box-shadow: #d6d6d6 2px 2px 15px;
+	border-radius: 5px;
+	
+	
+}
+body { /* 网页主体 */
+	background-color: #f8fafc;
+}
+
+.zuo { /* 登录总窗体内左窗体 */
+	float: left;
+	width: 50%;
+	height: 100%;
+	background-color: white;
+	border-radius: 5px;
+}
+
+.you { /* 登录总窗体内右窗体 */
+	float: right;
+	width: 120px;
+	width: 50%;
+	height: 100%;
+	border-radius: 0px 5px 5px 0px;
+	background: url(../img/bg1.png) no-repeat ;
+}
+
+.dl { /* 表单样式1 */
+	width: 300px;
+	height: 45px;
+	margin: 10px 0px 0px 25%;
+	border-radius: 8px;
+	box-shadow: ghostwhite 5px 5px 10px;
+	background: #edf4fe;
+	
+}
+.emil { /* 表单样式2 */
+	width: 300px;
+	height: 45px;
+	margin: 20px 0px 0px 0px;
+	border-radius: 8px;
+	border: solid 1px;
+	box-shadow: ghostwhite 5px 5px 10px;
+	
+}
+
+.img { /* 图片样式 */
+	width: 8%;
+	box-shadow: black 5px 5px 10px;
+	border-radius: 45%;
+	margin: 0px 15px 0px 100px;
+	padding: 3px;
+	
+}
+
+.p1 { /* 占位 */
+	width: 100%;
+	height: 110px;
+	margin: 0px 0px 10px ;
+	
+}
+
+.zc { /* 表单样式3 */
+	width: 300px;
+	height: 45px;
+	margin: 10px 0px 0px 25%;
+	border-radius: 8px;
+	box-shadow: ghostwhite 5px 5px 10px;
+	background: #6c7de3;
